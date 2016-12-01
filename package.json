@@ -1,7 +1,7 @@
 {
   "name": "angular-electron-seed",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "main.js",
   "description": "Base project to build awesome Electron-based Angular apps",
   "repository": "https://github.com/JuanjoSalvador/angular-electron-seed",
