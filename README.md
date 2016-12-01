@@ -29,7 +29,8 @@ $ npm start
 
 There are some Gulp task now:
 
-    * Minimify CSS
+* Minimify CSS
+* Build CSS with SASS
 
 ### To do
 
