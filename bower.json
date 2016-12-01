@@ -1,0 +1,12 @@
+{
+  "name": "konata",
+  "description": "Anime and Manga personal library",
+  "version": "0.0.1",
+  "homepage": "https://github.com/JuanjoSalvador/konata",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-ui-router": "~0.3.2"
+  }
+}

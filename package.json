@@ -1,0 +1,20 @@
+{
+  "name": "angular-electron-seed",
+  "private": true,
+  "version": "0.0.1",
+  "main": "main.js",
+  "description": "Base project to build awesome Electron-based Angular apps",
+  "repository": "https://github.com/JuanjoSalvador/angular-electron-seed",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron-prebuilt": "^1.4.10",
+    "electron": "^1.4.10"
+  }
+}
