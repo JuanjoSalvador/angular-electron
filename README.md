@@ -1,4 +1,4 @@
-# Angular + Electron Seed
+# Angular + Electron
 
 Base project to build your awesome Electron-based Angular app.
 
@@ -6,7 +6,9 @@ Base project to build your awesome Electron-based Angular app.
 * Angular UI Router
 * Electron
 * Gulp
-* SASS
+* NPM
+* Bower
+* SASS (optional)
 
 ### Getting started
 
@@ -23,6 +25,14 @@ $ bower install
 #### Run it!
 ```
 $ npm start
+```
+
+#### Using SASS
+
+If you want to use SASS, you need to install SASS gem (not available via NPM)
+
+```
+$ gem install sass
 ```
 
 ### Gulp tasks

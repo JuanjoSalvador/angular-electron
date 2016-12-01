@@ -1,10 +1,10 @@
 {
-  "name": "angular-electron-seed",
+  "name": "angular-electron",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "main.js",
   "description": "Base project to build awesome Electron-based Angular apps",
-  "repository": "https://github.com/JuanjoSalvador/angular-electron-seed",
+  "repository": "https://github.com/JuanjoSalvador/angular-electron",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",
@@ -18,7 +18,6 @@
     "start": "gulp && electron ."
   },
   "dependencies": {
-    "electron-prebuilt": "^1.4.10",
     "electron": "^1.4.10"
   }
 }

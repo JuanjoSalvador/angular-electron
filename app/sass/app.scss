@@ -1,4 +1,11 @@
 $red: darkred;
+$opensans: 'Open Sans';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: $opensans;
+}
 
 .active {
     color: $red;
