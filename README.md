@@ -1,6 +1,12 @@
 # Angular + Electron Seed
 
-Base project to build your Electron-based Angular app. Builded with VS Code.
+Base project to build your awesome Electron-based Angular app.
+
+* Angular 1.5
+* Angular UI Router
+* Electron
+* Gulp
+* SASS
 
 ### Getting started
 
@@ -16,20 +22,19 @@ $ bower install
 ```
 #### Run it!
 ```
-$ npm start # Run electron app
+$ npm start
 ```
-App available on [http://localhost:8000](http://localhost:8000)
 
-### Dependencies
+### Gulp tasks
 
-* Angular 1.5
-* Angular UI Router
-* Electron
+There are some Gulp task now:
+
+    * Minimify CSS
 
 ### To do
 
 * Add webpack?
-* Add gulp task?
+* Add gulp tasks?
 
 ### License
 

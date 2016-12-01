@@ -8,18 +8,22 @@ angular.module('myApp', [
 ])
 
 .config(function($stateProvider, $urlRouterProvider) {
+  // Add any state you need here.
+
   $stateProvider
     .state({
       name: 'view',
       url: '/view',
-      templateUrl: 'view/view.html',
+      templateUrl: 'modules/view/view.html',
       controller: viewCtrl
     })
     .state({
       name: 'home',
       url: '/',
-      templateUrl: 'home/home.html',
+      templateUrl: 'modules/home/home.html',
       controller: homeCtrl
     })
+
+    // By default
    $urlRouterProvider.when('', '/');
 });
