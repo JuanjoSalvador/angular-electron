@@ -4,6 +4,7 @@
 angular.module('myApp', [
   'myApp.home',
   'myApp.view',
+  'myApp.navigation',
   'ui.router'
 ])
 
@@ -14,13 +15,13 @@ angular.module('myApp', [
     .state({
       name: 'view',
       url: '/view',
-      templateUrl: 'modules/view/view.html',
+      templateUrl: 'views/view.html',
       controller: viewCtrl
     })
     .state({
       name: 'home',
       url: '/',
-      templateUrl: 'modules/home/home.html',
+      templateUrl: 'views/home.html',
       controller: homeCtrl
     })
 

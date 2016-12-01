@@ -2,6 +2,8 @@ var gulp   = require('gulp');
 var sass   = require('gulp-sass');
 var minify = require('gulp-clean-css');
 var rename = require('gulp-rename');
+var uglify = require('gulp-uglify');
+var pump   = require('pump');
 
 gulp.task('sass', function () {
     gulp.src('./app/sass/*.scss')
@@ -25,7 +27,17 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('./app/css/'))
     ;
 });*/
+ 
+gulp.task('compress', function (cb) {
+  pump([
+        gulp.src('src/app.js'),
+        uglify(),
+        gulp.dest('app')
+    ],
+    cb
+  );
+});
 
-gulp.task('default', ['sass'], function() {
+gulp.task('default', ['sass', 'compress'], function() {
   
 });
