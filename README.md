@@ -4,15 +4,19 @@ Base project to build your Electron-based Angular app. Builded with VS Code.
 
 ### Getting started
 
-1. Install dependencies
+#### Clone repo
+```
+$ git clone https://github.com/JuanjoSalvador/angular-electron-seed.git
+```
+
+#### Install dependencies
 ```
 $ npm install
 $ bower install
 ```
-2. Run it, or serve it!
+#### Run it!
 ```
 $ npm start # Run electron app
-$ npm serve # Serve on localhost
 ```
 App available on [http://localhost:8000](http://localhost:8000)
 
