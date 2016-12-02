@@ -8,7 +8,7 @@ Base project to build your awesome Electron-based Angular app.
 * Gulp
 * NPM
 * Bower
-* SASS (optional)
+* SASS
 
 ### Getting started
 
@@ -25,14 +25,6 @@ $ bower install
 #### Run it!
 ```
 $ npm start
-```
-
-#### Using SASS
-
-If you want to use SASS, you need to install SASS gem (not available via NPM)
-
-```
-$ gem install sass
 ```
 
 ### Gulp tasks
