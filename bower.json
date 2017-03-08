@@ -1,8 +1,8 @@
 {
-  "name": "konata",
-  "description": "Anime and Manga personal library",
+  "name": "angular-electron",
+  "description": "Electron & Angular base project",
   "version": "0.0.1",
-  "homepage": "https://github.com/JuanjoSalvador/konata",
+  "homepage": "https://github.com/JuanjoSalvador/angular-electron",
   "license": "MIT",
   "private": true,
   "dependencies": {
