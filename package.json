@@ -1,7 +1,7 @@
 {
   "name": "angular-electron",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "main.js",
   "description": "Base project to build awesome Electron-based Angular apps",
   "repository": "https://github.com/JuanjoSalvador/angular-electron",
@@ -20,6 +20,7 @@
     "start": "gulp && electron ."
   },
   "dependencies": {
-    "electron": "^1.4.10"
+    "electron": "^1.4.10",
+    "angular-ui-router": "latest"
   }
 }
