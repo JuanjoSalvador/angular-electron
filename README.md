@@ -2,7 +2,7 @@
 
 Base project to build your awesome Electron-based Angular app.
 
-* Angular 1.5
+* Angular 1.6
 * Angular UI Router
 * Electron
 * Gulp
