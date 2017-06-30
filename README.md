@@ -17,13 +17,9 @@ Base project to build your awesome Electron-based Angular app.
 $ git clone https://github.com/JuanjoSalvador/angular-electron-seed.git
 ```
 
-#### Install dependencies
+#### Install dependencies and run it!
 ```
 $ npm install
-$ bower install
-```
-#### Run it!
-```
 $ npm start
 ```
 
@@ -34,10 +30,9 @@ There are some Gulp task now:
 * Minimify CSS
 * Build CSS with SASS
 
-### To do
+### Contributing guide
 
-* Add webpack?
-* Add gulp tasks?
+Check the issues, look for any that you can resolve, and fix it! Or simply open a new issue with your ideas, improvements, bugs, etc and I will fix it as soon as possible.
 
 ### License
 
