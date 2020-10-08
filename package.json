@@ -22,6 +22,6 @@
   "dependencies": {
     "electron": "^1.4.10",
     "@uirouter/angularjs": "latest",
-    "angular":"1.6.4"
+    "angular":"1.8.1"
   }
 }
