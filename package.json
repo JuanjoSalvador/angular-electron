@@ -20,7 +20,7 @@
     "start": "gulp && electron ."
   },
   "dependencies": {
-    "electron": "^1.4.10",
+    "electron": "^10.1.3",
     "@uirouter/angularjs": "latest",
     "angular":"1.8.1"
   }
